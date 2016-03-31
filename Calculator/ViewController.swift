@@ -35,6 +35,8 @@ class ViewController: UIViewController {
 		} else if sender.tag == 1010 {
 			self.numberLabel.append(0)
 			self.numberLabel.append(0)
+		} else if sender.tag == 10 {
+			self.numberLabel.appendFloatPoint()
 		}
 	}
 
